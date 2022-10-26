@@ -1,0 +1,258 @@
+@font-face {
+    src: url(fonts/stinger-fit-trial.regular.ttf);
+    font-family: stiger;
+}
+
+@font-face {
+    src: url(fonts/TTChocolates-Regular.otf);
+    font-family: ttchocolate;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.header-container{
+    display: flex;
+    height: 100vh;
+}
+
+.header_text_content{
+    background-color: #209220e7;
+    color: #fff;  
+    padding: 10% 5% 0 5%;
+}
+
+.header-container h1{
+    font-family: stiger;
+    font-size: 8rem;
+}
+
+.header-container p{
+    font-family: ttchocolate;
+    font-size: 3.0rem;
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 30%;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #209220e7;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 10%;;
+    background-color: #fcd6d6;
+    padding: 1.5rem 5rem;
+    border-radius: 35px;
+    color: #209220e7;
+
+}
+.header_image img{
+    object-fit: cover;
+    height: 100vh;
+    width: 50vw;
+}
+
+.articles_and_socials-container{
+    min-height: 105vh;
+    background-color: #e8bcbc;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    align-items: center;
+    gap: 5%;   
+}
+.articles_and_socials-container >*{
+    flex: 1;
+}
+
+.articles p{
+    font-family: ttchocolate;
+    font-size: 3rem;
+    
+}
+.soclial_buttons{
+    display: block;
+    align-self: stretch;
+    padding-top: 10%;  
+}
+.soclial_buttons p{
+    font-size: 3rem;
+    color: #ff0000d2;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 6%;; 
+}
+
+.soclial_buttons ul{
+    width: 40%; 
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.soclial_buttons li{
+    list-style: none;
+    padding: 19px 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 2.5rem;
+    background-color: #209220e7;
+    border: 1px solid #fcd6d6;
+    border-radius: 30px;
+    color: #fff;  
+}
+
+.soclial_buttons li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: ttchocolate; 
+    margin-left: 6%;   
+}
+
+.uploaded_episodes{
+    min-height: 100vh;
+    background-color: #209220e7;
+    display: flex; 
+    gap: 15%;
+    align-items: center;
+    padding: 2% 2.5%;
+}
+
+.recent_episode{
+    margin-left: 70px;
+    width: 450px;
+}
+.recent_episode img{
+    width: 100%;
+}
+.episode h2, .episode p{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 3%;
+}
+
+h2.title{
+    color: #e8bcbc;
+    font-size: 2.5rem;
+}
+.previous_episodes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous_episodes img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 3% 5% 5% 0;  
+}
+
+.about_hosts_container{
+    height: 100vh;
+    display: flex;
+    gap: 10%; 
+    padding: 1% 2.5%; 
+}
+
+.about_hosts_text{
+    color: #209220e7;
+    font-size: 8rem;
+    font-weight: 800;
+    font-family: stiger;
+    flex:1;
+    padding-left: 5%;
+}
+
+.hosts_content{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+.hosts_content img{
+    
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 3% 5% 5% 0; 
+}
+
+.host_name{
+    color: #209220e7;
+}
+
+.hosts_content h2,
+.hosts_content p{
+    font-size: 2.5rem;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.host_1_content,
+.host_2_content{
+    margin-top: 10%;
+}
+
+.testimony{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e8bcbc;
+}
+.textimony_intro p{
+    color: #209220e7;
+    font-size: 7rem;
+    font-weight: 800;
+    margin: 5% 0% 5% 4%;
+    font-family: stiger;
+}
+.testimony_articles{ 
+    display: flex;
+    
+}
+
+.article{
+    background-color: #fff;
+    font-family: ttchocolate;
+    font-size: 2rem;
+    padding:3% 5% 0 2%;
+    height: 400px;
+    margin: 0 4%;
+    position: relative;
+}
+
+.article span{
+    font-size: 3rem;
+    position: absolute;
+    top: 60%;
+    left:6%;
+}
+
+footer{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/footer.jpg);
+    color: #fff;
+    padding-top: 15%;
+    padding-left: 3%;
+    font-family: stiger;
+    font-size: 4rem;
+}
+
+footer p{
+    margin: 3% 0;
+    cursor: pointer;
+}
+
+footer i{
+    margin-right: 2%;
+    cursor: pointer;
+}
